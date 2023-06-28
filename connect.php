@@ -1,9 +1,9 @@
 <?php
 
 $serverName = "localhost";
-$user = "eceha";
-$password = "asker9";
-$dbName = "shopping";
+$user = "";
+$password = "";
+$dbName = "";
 $link = mysqli_connect($serverName, $user, $password, $dbName);
 if (!$link) {
     header("location:index.php?error=2");
